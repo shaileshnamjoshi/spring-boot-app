@@ -5,6 +5,9 @@ simple spring boot app
 If you have a single-node OpenShift cluster, such as Minishift or the Red Hat Container Development Kit or any openshift cluster running, installed and running, you can also deploy your booster there. A single-node OpenShift cluster provides you with access to a cloud environment that is similar to a production environment.
 
 To deploy your booster to a running single-node OpenShift cluster:
+$ git clone https://github.com/shaileshnamjoshi/spring-boot-app.git/
+
+$ cd spring-boot-app
 
 $ oc login -u <username> -p <password>
 
